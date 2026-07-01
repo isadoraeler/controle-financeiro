@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Controle Financeiro</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Controle Financeiro</h1>
+    <br>
+    <h2>Organize suas finanças pessoais.</h2>
+<br>
+    <section id="resumo">
+
+      <div class="card entradas">
+        <h3>Entradas</h3>
+        <p>R$ 0,00</p>
+      </div>
+<br>
+      <div class="card saidas">
+        <h3>Saídas</h3>
+        <p>R$ 0,00</p>
+      </div>
+<br>
+      <div class="card saldo">
+        <h3>Saldo</h3>
+        <p>R$ 0,00</p>
+      </div>
+
+    </section>
+<br>
+    <form id="form-transacao">
+
+      <input type="text" placeholder="Nome da Transação" name="nome">
+
+      <input type="number" placeholder="Valor" name="valor">
+
+      <select name="tipo">
+        <option value="entrada">Entrada</option>
+        <option value="saida">Saída</option>
+      </select>
+
+      <input type="text" placeholder="Categoria" name="categoria">
+
+      <button type="submit">Adicionar</button>
+
+    </form>
+<br>
+    <section id="lista-transacoes">
+
+      <h2>Histórico de Transações</h2>
+<br>
+      <div id="lista">
+      </div>
+
+    </section>
+
+  </div>
+
+</body>
+</html>

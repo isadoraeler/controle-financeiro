@@ -1,0 +1,74 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: #f4f6f9;
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.container {
+width: 100%;
+max-width: 500px;
+}
+
+#resumo {
+display: flex;
+gap: 10px;
+margin: 20px 0
+}
+
+.card {
+background: white;
+padding: 15px;
+border-radius: 10px;
+flex: 1;
+text-align: center;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form {
+background: #f4f6f9;
+padding: 15px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input, select {
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 6px;
+}
+
+button {
+padding: 10px;
+background: #2ecc71;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+background:#27ae60;
+}
+
+#lista-transacoes {
+  margin-top: 20px;
+}
+
+#lista {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 100px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
